@@ -4,7 +4,7 @@ today=new Date();
 var cmas=new Date(today.getFullYear(), 11, 25);
 if (today.getMonth()==11 && today.getDate()>25) 
 {
-cmas.setFullYear(cmas.getFullYear()+1); 
+  cmas.setFullYear(cmas.getFullYear()+1); 
 }  
 var one_day=1000*60*60*24;
 var date = Math.ceil((cmas.getTime()-today.getTime())/(one_day));
@@ -13,7 +13,7 @@ var bar = new ProgressBar.Line(container, {
   strokeWidth: 4,
   easing: 'easeInOut',
   duration: 1400,
-  color: '#FFEA82',
+  color: '#0394fc',
   trailColor: '#eee',
   trailWidth: 1,
   svgStyle: {width: '100%', height: '100%'},
